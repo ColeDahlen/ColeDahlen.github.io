@@ -1,1 +1,36 @@
-
+body {
+ background-color: #006400;
+ font-family: Times-New-Roman, Georgia, Serif; 
+ margin: 15%;
+ animation-name: body1;
+ animation-duration: 4s;
+}
+.exp-header {
+ border-style: dotted;
+ background-color: rgba(0,0,0,.1)
+}
+.exp-header2 {
+  border-style: solid;
+  animation-name: header2;
+  animation-duration: 4s;
+}
+ p {
+ font-style: italic;
+}
+h1 {
+  border-bottom: 2px Solid
+}
+h4 {
+  border-style: double
+}
+.footer {
+  color: #dddddd;
+  background-color: #000000;
+}
+@keyframes body1 {
+  from {background-color: black;}
+  to {background-color: #006400;}
+}
+img {
+  border-radius: 10%;
+}
