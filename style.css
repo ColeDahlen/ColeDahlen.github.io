@@ -1,5 +1,5 @@
 body {
- background-color: #006400;
+ background-color: lightblue;
  font-family: Times-New-Roman, Georgia, Serif; 
  margin: 15%;
  animation-name: body1;
@@ -29,7 +29,7 @@ h4 {
 }
 @keyframes body1 {
   from {background-color: black;}
-  to {background-color: #006400;}
+  to {background-color: lightblue;}
 }
 img {
   border-radius: 10%;
